@@ -1,0 +1,22 @@
+Using CPUID GenuineIntel-6-9A-3
+Control descriptor is not initialized
+cpu-clock: 99868 102337 102337
+context-switches: 2 99225 99225
+cache-misses: 0 97328 0
+cache-misses: 1042 97501 97501
+page-faults: 0 96581 96581
+cpu-migrations: 0 95737 95737
+
+ Performance counter stats for process id '53694':
+
+              0.10 msec cpu-clock                        #    0.000 CPUs utilized             
+                 2      context-switches                 #   20.026 K/sec                     
+     <not counted>      cpu_atom/cache-misses/                                                  (0.00%)
+             1,042      cpu_core/cache-misses/                                                
+                 0      page-faults                      #    0.000 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+
+       1.677519080 seconds time elapsed
+
+ elapsed
+

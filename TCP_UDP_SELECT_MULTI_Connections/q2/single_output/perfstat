@@ -1,0 +1,29 @@
+# started on Sun Sep 29 14:07:33 2024
+
+
+ Performance counter stats for 'system wide':
+
+         68,044.86 msec cpu-clock                        #   15.999 CPUs utilized             
+            83,250      context-switches                 #    1.223 K/sec                     
+             5,396      cpu-migrations                   #   79.301 /sec                      
+            20,940      page-faults                      #  307.738 /sec                      
+     3,082,075,742      cpu_atom/cycles/                 #    0.045 GHz                         (75.02%)
+     8,453,509,305      cpu_core/cycles/                 #    0.124 GHz                       
+     2,523,683,218      cpu_atom/instructions/           #    0.82  insn per cycle              (87.48%)
+     9,436,534,592      cpu_core/instructions/           #    3.06  insn per cycle            
+       397,955,466      cpu_atom/branches/               #    5.848 M/sec                       (87.45%)
+     1,508,347,327      cpu_core/branches/               #   22.167 M/sec                     
+        15,551,915      cpu_atom/branch-misses/          #    3.91% of all branches             (87.50%)
+        37,776,406      cpu_core/branch-misses/          #    9.49% of all branches           
+             TopdownL1 (cpu_core)                 #     37.7 %  tma_backend_bound      
+                                                  #      8.2 %  tma_bad_speculation    
+                                                  #     33.4 %  tma_frontend_bound     
+                                                  #     20.7 %  tma_retiring           
+             TopdownL1 (cpu_atom)                 #     18.9 %  tma_bad_speculation    
+                                                  #     18.9 %  tma_retiring             (87.54%)
+                                                  #     30.5 %  tma_backend_bound      
+                                                  #     30.5 %  tma_backend_bound_aux  
+                                                  #     31.7 %  tma_frontend_bound       (87.52%)
+
+       4.253170904 seconds time elapsed
+
